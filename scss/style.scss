@@ -1,0 +1,110 @@
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$cyan: #19a2ae;
+$darkBlue:#2d3248;
+$gray: #6a6f81;
+
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: #19a2ae;
+    background-image:  url(/images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section{
+    background-color: white;
+    height: auto;
+    width: 400px;
+    border-radius: 25px;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
+
+    #bgCard{
+        width: 100%;
+        height: 11rem;
+        border-radius: 25px 25px 0px 0px;
+    }
+    
+    #imageBoy{
+        border-radius: 50%;
+        border: 4px solid white;
+        height: 8rem;
+
+        position: absolute;
+        z-index: 1;
+        left: 50%;
+        top: 35%;
+        transform: translate(-50%,-50%);
+    }
+
+    .info{
+        display: flex;
+        margin-top: 4.5rem;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        text-align: center;
+
+        h1{
+            color: #2d3248;
+        }
+        span{
+            font-size: 25px;
+            color: #2d3248bc;
+            font-weight: 400;
+            text-align: center;
+        }
+    }
+
+    #country{
+        text-align: center;
+        font-size: 17px;
+        color: #2d3248ae;
+        margin-top: .7rem;
+        font-weight: 400;
+    }
+
+    .line{
+        height: 1px;
+        width: 100%;
+        background-color: #2d324844;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .datails{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-bottom: 2rem;
+
+        .followers{
+            text-align: center;
+        }
+        .likes{
+            text-align: center;
+        }
+        .photos{
+            text-align: center;
+        }
+
+        h1{
+            color: #2d3248;
+            
+        }
+        p{
+            text-align: center;
+            color: #6a6f81c6;
+            margin-top: .2rem;
+        }
+    }
+}
