@@ -90,4 +90,11 @@ body {
   text-align: center;
   color: rgba(106, 111, 129, 0.7764705882);
   margin-top: 0.2rem;
+}
+
+.attribution {
+  position: absolute;
+  top: 97%;
+  margin-left: 50%;
+  transform: translate(-50%, -50%);
 }/*# sourceMappingURL=style.css.map */

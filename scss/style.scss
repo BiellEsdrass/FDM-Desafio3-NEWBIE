@@ -8,6 +8,7 @@ $cyan: #19a2ae;
 $darkBlue:#2d3248;
 $gray: #6a6f81;
 
+
 body{
     font-family: 'Kumbh Sans', sans-serif;
     background-color: #19a2ae;
@@ -107,4 +108,11 @@ body{
             margin-top: .2rem;
         }
     }
+}
+
+.attribution{
+    position: absolute;
+    top: 97%;
+    margin-left: 50%;
+    transform: translate(-50%,-50%);
 }
