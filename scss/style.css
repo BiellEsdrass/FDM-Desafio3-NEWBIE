@@ -97,4 +97,8 @@ body {
   top: 97%;
   margin-left: 50%;
   transform: translate(-50%, -50%);
+}
+.attribution a {
+  color: #2d3248;
+  font-weight: 900;
 }/*# sourceMappingURL=style.css.map */
